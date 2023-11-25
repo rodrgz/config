@@ -1,0 +1,32 @@
+[alias]
+	add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -"
+	graph = "log --decorate --oneline --graph"
+	pushall = "!git remote | xargs -L1 git push --all"
+
+[commit]
+	gpgSign = true
+
+[feature]
+	manyFiles = true
+
+[filter "lfs"]
+	clean = "git-lfs clean -- %f"
+	process = "git-lfs filter-process"
+	required = true
+	smudge = "git-lfs smudge -- %f"
+
+[init]
+	defaultBranch = "main"
+
+[sendemail]
+	smtpencryption = "ssl"
+	smtpserver = "smtp.migadu.com"
+	smtpserverport = 465
+	smtpuser = "erik_pc@rodgz.com"
+
+[user]
+	email = "erik@rodgz.com"
+	name = "Erik Rodriguez"
+
+[user "signing"]
+	key = "DE72E58992804B58359054BAA8D006AEE72ECD8D"

@@ -1,0 +1,29 @@
+theme = "gruvbox-dark-soft"
+[editor]
+bufferline = "multiple"
+color-modes = true
+cursorline = true
+line-number = "absolute"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = ""
+
+[editor.statusline]
+center = ["file-name"]
+left = ["mode", "spinner", "version-control", "diagnostics", "workspace-diagnostics"]
+right = ["selections", "file-encoding", "file-type", "position"]
+
+[keys.normal."+"]
+t = ":run-shell-command foot --window-size-pixels=1300x700 --app-id=popup"
