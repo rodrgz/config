@@ -1,0 +1,143 @@
+attributes = "base09"
+constant = "base09"
+"constant.character.escape" = "base0C"
+"constant.numeric" = "base09"
+constructor = "base0D"
+debug = "base03"
+"diff.delta" = "base09"
+"diff.minus" = "base08"
+"diff.plus" = "base0B"
+error = "base08"
+function = "base0D"
+hint = "base03"
+info = "base0D"
+keyword = "base0E"
+label = "base0E"
+"markup.heading" = "base0D"
+"markup.link.text" = "base08"
+"markup.list" = "base08"
+"markup.quote" = "base0C"
+"markup.raw" = "base0B"
+namespace = "base0E"
+operator = "base05"
+special = "base0D"
+string = "base0B"
+type = "base0A"
+"ui.text" = "base05"
+"ui.text.focus" = "base05"
+variable = "base08"
+"variable.other.member" = "base0B"
+warning = "base09"
+
+[comment]
+fg = "base03"
+modifiers = ["italic"]
+
+[diagnostic]
+modifiers = ["underlined"]
+
+["markup.bold"]
+fg = "base0A"
+modifiers = ["bold"]
+
+["markup.italic"]
+fg = "base0E"
+modifiers = ["italic"]
+
+["markup.link.url"]
+fg = "base09"
+modifiers = ["underlined"]
+
+[palette]
+base00 = "#32302f"
+base01 = "#3c3836"
+base02 = "#504945"
+base03 = "#665c54"
+base04 = "#bdae93"
+base05 = "#d5c4a1"
+base06 = "#ebdbb2"
+base07 = "#fbf1c7"
+base08 = "#fb4934"
+base09 = "#fe8019"
+base0A = "#fabd2f"
+base0B = "#b8bb26"
+base0C = "#8ec07c"
+base0D = "#83a598"
+base0E = "#d3869b"
+base0F = "#d65d0e"
+
+["ui.background"]
+bg = "base00"
+
+["ui.cursor"]
+fg = "base04"
+modifiers = ["reversed"]
+
+["ui.cursor.match"]
+fg = "base0A"
+modifiers = ["underlined"]
+
+["ui.cursor.primary"]
+fg = "base05"
+modifiers = ["reversed"]
+
+["ui.cursorline.primary"]
+bg = "base01"
+
+["ui.cursorline.secondary"]
+bg = "base01"
+
+["ui.gutter"]
+bg = "base00"
+
+["ui.help"]
+bg = "base01"
+fg = "base06"
+
+["ui.linenr"]
+bg = "base00"
+fg = "base03"
+
+["ui.linenr.selected"]
+bg = "base01"
+fg = "base04"
+modifiers = ["bold"]
+
+["ui.menu"]
+bg = "base01"
+fg = "base05"
+
+["ui.menu.selected"]
+bg = "base04"
+fg = "base01"
+
+["ui.popup"]
+bg = "base01"
+
+["ui.selection"]
+bg = "base02"
+
+["ui.statusline"]
+bg = "base01"
+fg = "base04"
+
+["ui.statusline.insert"]
+bg = "base0B"
+fg = "base00"
+
+["ui.statusline.normal"]
+bg = "base03"
+fg = "base00"
+
+["ui.statusline.select"]
+bg = "base0F"
+fg = "base00"
+
+["ui.virtual.ruler"]
+bg = "base01"
+
+["ui.virtual.whitespace"]
+fg = "base03"
+
+["ui.window"]
+bg = "base01"
